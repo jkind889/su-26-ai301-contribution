@@ -11,6 +11,10 @@
 
 [1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
 
+ I chose this issue because it has a clearly defined scope and straightforward requirements. The feature involves allowing users to edit account details such as their username and email after account creation, making it an approachable but meaningful contribution. Since the changes will likely involve both backend API updates and frontend form handling, it provides an opportunity to work across multiple parts of the application while still remaining manageable as a first open-source contribution.
+
+This issue aligns well with my learning goals of becoming more familiar with Python backends and Flask-based API development. Web development is one of my primary interests, and I have experience building full-stack applications using React, Node.js, Express, and MongoDB. Through this project, I hope to gain hands-on experience working with an established Python codebase, learn how Flask applications are structured in a real-world environment, and become more comfortable contributing to larger collaborative software projects.
+
 ---
 
 ## Understanding the Issue
