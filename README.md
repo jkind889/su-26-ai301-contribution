@@ -25,15 +25,15 @@ This issue aligns well with my learning goals of becoming more familiar with Pyt
 
 ### Expected Behavior
 
-[What should happen?]
+Users should be able to change their details such as username and full name
 
 ### Current Behavior
 
-[What actually happens?]
+Button to modify user details doesn't exist
 
 ### Affected Components
 
-[Which parts of the codebase are involved?]
+GrampsjsUsers.js
 
 ---
 
