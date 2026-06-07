@@ -22,6 +22,7 @@ This issue aligns well with my learning goals of becoming more familiar with Pyt
 ### Problem Description
 
 [In your own words, what's broken or missing?]
+Theres no button for users to change their fullname or username details even though the logic for it exists in the backend
 
 ### Expected Behavior
 
