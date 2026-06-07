@@ -42,16 +42,20 @@ GrampsjsUsers.js
 ### Environment Setup
 
 [Notes on setting up your local development environment - challenges you faced, how you solved them]
+It's pretty simple to set up the environment as all you have to do is fork the repo and then open the repo in a dev container. It takes a minute to open and theres a lot to download. Since im editing the frontend I had to spin up the backend as well to have live refreshes when editing the front end
 
 ### Steps to Reproduce
 
 1. [Step 1]
-2. [Step 2]
-3. [Observed result]
+   Make an owner account
+3. [Step 2]
+   Go to user details
+5. [Observed result]
+   Theres no button to change details of username and email
 
 ### Reproduction Evidence
 
-- **Commit showing reproduction:** [Link to commit in your fork]
+- **Commit showing reproduction:** N/A
 - **Screenshots/logs:** [If applicable]
 - **My findings:** [What you discovered during reproduction]
 
@@ -62,30 +66,34 @@ GrampsjsUsers.js
 ### Analysis
 
 [Your analysis of the root cause - what's causing the issue?]
+There's no buttons to change username and full name even though the backend supports it
 
 ### Proposed Solution
 
 [High-level description of your fix approach]
+Add a button similar to the change email button to implement changing usernames and full names
 
 ### Implementation Plan
 
 Using UMPIRE framework (adapted):
 
-**Understand:** [Restate the problem]
+**Understand:** [Restate the problem
+Add a button to change usernames and full names for users
 
 **Match:** [What similar patterns/solutions exist in the codebase?]
+There exists logic to change usernames and fullnames within the API
 
 **Plan:** [Step-by-step implementation plan]
 1. [Modify file X to do Y]
 2. [Add function Z]
 3. [Update tests]
-
+Modify GrampsjsUsers.js 
 **Implement:** [Link to your branch/commits as you work]
 
 **Review:** [Self-review checklist - does it follow the project's contribution guidelines?]
 
 **Evaluate:** [How will you verify it works?]
-
+I will implement tests before I ship anything to confirm that a user is able to change their name and username, I can also add tests for the form to implement if a duplicate name doesn't go through but there is logic inside the backend for that as well
 ---
 
 ## Testing Strategy
