@@ -118,9 +118,10 @@ I will implement tests before I ship anything to confirm that a user is able to 
 
 ## Implementation Notes
 
-### Week [X] Progress
+### Week 3 Progress
 
 [What you built this week, challenges faced, decisions made]
+I implemented the two fields to change username and full name along with the button to submit, I used the backend logic set in place already to tie into the frontend logic, challenges I faced was more so setting up the dev environment more than anything since dependencies issues, everything else went smoothly due to the backend logic being implemented already
 
 ### Week [Y] Progress
 
@@ -128,9 +129,9 @@ I will implement tests before I ship anything to confirm that a user is able to 
 
 ### Code Changes
 
-- **Files modified:** [List]
-- **Key commits:** [Links to important commits]
-- **Approach decisions:** [Why you chose certain approaches]
+- **Files modified:** GrampjsViewSettingsUser.js
+- **Key commits:** https://github.com/jkind889/gramps-web/tree/issue-225
+- **Approach decisions:** I chose to implement the initial logic first to tie into the button before rendering and creating the css for the two fields to match the theme the frontend has going on currently.
 
 ---
 
